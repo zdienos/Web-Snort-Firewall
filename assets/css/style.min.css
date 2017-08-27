@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'FOSR';
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'FOSB';
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf"); }
+
+@font-face {
+  font-family: 'FOSL';
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf"); }
+
+@font-face {
+  font-family: 'FT';
+  src: url("../fonts/Tahoma/Tahoma.ttf"); }
+
+html, body {
+  background-color: #ffffff;
+  color: #222222;
+  font-family: 'FT', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none; }
+
+p {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.fmkb-badge {
+  margin-left: -10px;
+  margin-top: -8px;
+  position: absolute; }
+
+.fmkb-dashboard {
+  background-color: #ffffff; }
+
+.fmkb-main {
+  padding: 65px 15px 15px 15px; }
+  .fmkb-main .fmkb-navbar {
+    background-color: #fafafa; }
+    .fmkb-main .fmkb-navbar .navbar-nav {
+      padding: 10px 15px 10px 0; }
+      .fmkb-main .fmkb-navbar .navbar-nav li a {
+        color: #2c3e50; }
+        .fmkb-main .fmkb-navbar .navbar-nav li a .fmkb-badge {
+          background-color: #2dbe60; }
+      .fmkb-main .fmkb-navbar .navbar-nav li:hover a {
+        color: #222222; }
