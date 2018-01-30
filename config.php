@@ -2,7 +2,7 @@
 	$database = "snort";
 	$username = "root";
 	$password = "root";
-	$host = "localhost";
+	$host = "127.0.0.1";
 
 	$conn = mysqli_connect($host, $username, $password, $database);
 
